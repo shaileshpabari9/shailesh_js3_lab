@@ -1,0 +1,106 @@
+body {
+
+    background-image: url('https://images.pexels.com/photos/10913481/pexels-photo-10913481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    z-index: 1;
+    background-size: cover;
+    align-items: center;
+}
+
+header {
+
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+main {
+
+    width: 400px;
+    height: auto;
+    -webkit-box-shadow: 0px 0px 5px #000000;
+    -moz-box-shadow: 0px 0px 5px #000000;
+    box-shadow: 0px 0px 5px #000000;
+    box-sizing: border-box;
+    background-color: transparent;
+    margin-top: 5%;
+    margin-left: 34%;
+    border-radius: 5px;
+
+}
+
+
+.CityDate {
+
+    display: block;
+    text-align: center;
+    padding: 1px;
+}
+
+.CityDate .Date {
+
+    font-size: x-large;
+
+}
+
+.wheather {
+    display: flex;
+    width: auto;
+
+
+}
+
+.wheather .temp {
+    padding-left: 5%;
+}
+
+.wheather .wheather_type {
+
+    padding-left: 12%;
+}
+
+.wheather .Max_Min_temp {
+    padding-left: 9%;
+    margin-top: 7%;
+}
+
+.city {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    padding: 2px;
+}
+
+.Date {
+
+    font-size: larger;
+    padding: 2px;
+}
+
+
+
+
+#Search_City {
+
+    height: 50px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: transparent;
+
+}
+
+#Search_City::placeholder {
+
+    font-size: large;
+    margin-left: 10px;
+    padding: 3px;
+    color: white;
+
+}
+
+input {
+
+    font-size: large;
+    color: aliceblue;
+}
